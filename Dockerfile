@@ -11,6 +11,8 @@ RUN yum -y update && \
     git \
     openssl \
     tar \
+    glibc \
+    glibc-common \
     yum clean all && \
     rm -rf /var/cache/yum
     
