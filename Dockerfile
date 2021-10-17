@@ -1,6 +1,6 @@
 FROM amazonlinux:2
 
-ENV VERSION_ZOLA=0.14.1
+ENV VERSION_ZOLA=0.13.0
 ENV VERSION_NODE=14.17.6
 
 # Install Curl, Git, OpenSSL (AWS Amplify requirements) and tar (required to unpack Zola)
