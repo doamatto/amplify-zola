@@ -22,7 +22,7 @@ RUN /bin/bash -c ". ~/.nvm/nvm.sh && \
     
 # Install Zola
 RUN curl -OL https://github.com/getzola/zola/releases/download/v${VERSION_ZOLA}/zola-v${VERSION_ZOLA}-x86_64-unknown-linux-gnu.tar.gz && \
-    tar -xf zola-v${VERSION_ZOLA}-x86_64-unknown-linux-gnu.tar.gz / && \
+    tar -xf zola-v${VERSION_ZOLA}-x86_64-unknown-linux-gnu.tar.gz -C / && \
     mv /zola /usr/bin/zola && \
     rm -rf zola-v${VERSION_ZOLA}-x86_64-unknown-linux-gnu.tar.gz
     
